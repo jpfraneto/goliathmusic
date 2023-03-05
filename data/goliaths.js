@@ -19,10 +19,10 @@ export let goliaths = [
       'https://i.seadn.io/gcs/files/5137838337952a371ec5f1273e5871bc.png',
     musicInfo: {
       cover:
-        'https://i.discogs.com/u7VRwgvIuEMZvsgu7L9BX8FoeEcREusIXpbxMQUNk3k/rs:fit/g:sm/q:90/h:509/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Nzk0/MDk5LTE1OTc5MTI0/NzAtNzIxNy5qcGVn.jpeg',
-      title: 'Henosis',
-      author: 'Joep Beving',
-      year: 2019,
+        'https://i.discogs.com/PgJu3xSg7xRp57n3uLGK0r0YfmcPBd7MUPM9-B1D_T0/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5Mjg3/NDUtMTM3OTcwODY5/NC02NDkzLmpwZWc.jpeg',
+      title: 'Queen',
+      author: 'Queen',
+      year: 1973,
     },
   },
   {
@@ -33,9 +33,9 @@ export let goliaths = [
     musicInfo: {
       cover:
         'https://i.discogs.com/JQrO2sz84IyUKNp6S2XqPDiO2LBPeHzAkEaYncGr4dg/rs:fit/g:sm/q:90/h:557/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzNzM2/Mi0xNDczMTgxOTIz/LTExMDEuanBlZw.jpeg',
-      title: 'Henosis',
-      author: 'Joep Beving',
-      year: 2019,
+      title: 'The Eminem Show',
+      author: 'Eminem',
+      year: 2002,
     },
   },
   {

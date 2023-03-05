@@ -81,7 +81,12 @@ const GoliathDisplay = ({ goliath }) => {
           fill
         />
       </div>
-      <h3># {goliath.number}</h3>
+      <h3>
+        <strong>
+          {' '}
+          # {goliath.number} - {goliath.ownedBy}
+        </strong>
+      </h3>
       {musicDisplay && (
         <div className={styles.musicMetadata}>
           <p>
