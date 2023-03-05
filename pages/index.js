@@ -5,7 +5,6 @@ import styles from '../styles/Home.module.css';
 import { goliaths } from '../data/goliaths';
 
 export default function Home() {
-  console.log('the goliaths are', goliaths);
   const [addGoliathLink, setAddGoliathLink] = useState(false);
 
   return (
@@ -22,7 +21,7 @@ export default function Home() {
       </p>
       <main className={styles.main}>
         {goliaths.map((x, i) => (
-          <GoliathDisplay goliath={x} />
+          <GoliathDisplay key={i} goliath={x} />
         ))}
       </main>
       {!addGoliathLink ? (
@@ -44,8 +43,11 @@ export default function Home() {
             Fill google form
           </a>{' '}
           <br />
-          (This link points to the following URL:
-          https://forms.gle/WNseciUrSyUcZV1c7)
+          <p>
+            {' '}
+            (This link points to the following URL:
+            https://forms.gle/WNseciUrSyUcZV1c7)
+          </p>
         </span>
       )}
     </div>
@@ -72,7 +74,12 @@ const GoliathDisplay = ({ goliath }) => {
         key={goliath.number}
         className={styles.goliathContainer}
       >
-        <Image unoptimized={true} src={image} fill />
+        <Image
+          alt={`Image of Goliath ${goliath.number}`}
+          unoptimized={true}
+          src={image}
+          fill
+        />
       </div>
       <h3># {goliath.number}</h3>
       {musicDisplay && (
