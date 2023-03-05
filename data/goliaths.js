@@ -26,6 +26,19 @@ export let goliaths = [
     },
   },
   {
+    number: 1532,
+    ownedBy: '@kithkui',
+    imageUrl:
+      'https://i.seadn.io/gcs/files/8fd9753a0a004bc7f80f8a601e34dc5c.gif',
+    musicInfo: {
+      cover:
+        'https://i.discogs.com/KaqnLCQIB2hH5MCCPx-uDIV5tyfXUaJ7phzgd-ROiZ4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjcw/OTM1LTE1NTExMDUx/MDItMjkzNC5qcGVn.jpeg',
+      title: 'Ancestral Voices',
+      author: 'Navagraha',
+      year: 2019,
+    },
+  },
+  {
     number: 2070,
     ownedBy: '@kithkui',
     imageUrl:
